@@ -1,0 +1,17 @@
+D:\_Projetos\LaPizza\LaPizza\bin\Debug\netcoreapp3.1\LaPizza.exe
+D:\_Projetos\LaPizza\LaPizza\bin\Debug\netcoreapp3.1\LaPizza.deps.json
+D:\_Projetos\LaPizza\LaPizza\bin\Debug\netcoreapp3.1\LaPizza.runtimeconfig.json
+D:\_Projetos\LaPizza\LaPizza\bin\Debug\netcoreapp3.1\LaPizza.runtimeconfig.dev.json
+D:\_Projetos\LaPizza\LaPizza\bin\Debug\netcoreapp3.1\LaPizza.dll
+D:\_Projetos\LaPizza\LaPizza\bin\Debug\netcoreapp3.1\LaPizza.pdb
+D:\_Projetos\LaPizza\LaPizza\obj\Debug\netcoreapp3.1\LaPizza.csprojAssemblyReference.cache
+D:\_Projetos\LaPizza\LaPizza\obj\Debug\netcoreapp3.1\LaPizza.csproj.GenerateResource.cache
+D:\_Projetos\LaPizza\LaPizza\obj\Debug\netcoreapp3.1\LaPizza.AssemblyInfoInputs.cache
+D:\_Projetos\LaPizza\LaPizza\obj\Debug\netcoreapp3.1\LaPizza.AssemblyInfo.cs
+D:\_Projetos\LaPizza\LaPizza\obj\Debug\netcoreapp3.1\LaPizza.csproj.CoreCompileInputs.cache
+D:\_Projetos\LaPizza\LaPizza\obj\Debug\netcoreapp3.1\LaPizza.dll
+D:\_Projetos\LaPizza\LaPizza\obj\Debug\netcoreapp3.1\LaPizza.pdb
+D:\_Projetos\LaPizza\LaPizza\obj\Debug\netcoreapp3.1\LaPizza.genruntimeconfig.cache
+D:\_Projetos\LaPizza\LaPizza\obj\Debug\netcoreapp3.1\LaPizza.FmrPrincipal.resources
+D:\_Projetos\LaPizza\LaPizza\obj\Debug\netcoreapp3.1\LaPizza.Properties.Resources.resources
+D:\_Projetos\LaPizza\LaPizza\obj\Debug\netcoreapp3.1\LaPizza.Forms.FmrCadastroCliente.resources
