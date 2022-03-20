@@ -63,9 +63,9 @@ namespace LaPizza.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CadastroAdicionar {
+        internal static System.Drawing.Bitmap AcaoAdicionar {
             get {
-                object obj = ResourceManager.GetObject("CadastroAdicionar", resourceCulture);
+                object obj = ResourceManager.GetObject("AcaoAdicionar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace LaPizza.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CadastroAdicionar40x40 {
+        internal static System.Drawing.Bitmap AcaoConsultar {
             get {
-                object obj = ResourceManager.GetObject("CadastroAdicionar40x40", resourceCulture);
+                object obj = ResourceManager.GetObject("AcaoConsultar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace LaPizza.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CadastroConsultar40x40 {
+        internal static System.Drawing.Bitmap AcaoEditar {
             get {
-                object obj = ResourceManager.GetObject("CadastroConsultar40x40", resourceCulture);
+                object obj = ResourceManager.GetObject("AcaoEditar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,39 +93,9 @@ namespace LaPizza.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CadastroEditar40x40 {
+        internal static System.Drawing.Bitmap AcaoExcluir {
             get {
-                object obj = ResourceManager.GetObject("CadastroEditar40x40", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap CadastroExcluir40x40 {
-            get {
-                object obj = ResourceManager.GetObject("CadastroExcluir40x40", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Cliente {
-            get {
-                object obj = ResourceManager.GetObject("Cliente", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Seta {
-            get {
-                object obj = ResourceManager.GetObject("Seta", resourceCulture);
+                object obj = ResourceManager.GetObject("AcaoExcluir", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

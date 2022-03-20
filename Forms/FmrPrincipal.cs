@@ -7,17 +7,39 @@ namespace LaPizza
 {
     public partial class FmrPrincipal : Form
     {
-        public static InteracaoMenu Menu;
-
-        private FmrCadastroCliente FmrCliente;
+        public static InteracaoMenu SubMenu;
         public FmrPrincipal()
         {
             InitializeComponent();
-            Menu = new InteracaoMenu();
-            Menu.SubMenuEsconderTodos(pnlMenus.Controls);
+            SubMenu = new InteracaoMenu();
+            SubMenu.EscondeTodos(pnlMenus.Controls);
 
         }
 
+        private void btnMenuCliente_Click(object sender, EventArgs e)
+        {
+            SubMenu.MostraOuEsconde(pnlSubMenuCliente);
+        }
+
+        private void btnMenuVenda_Click(object sender, EventArgs e)
+        {
+            SubMenu.MostraOuEsconde(pnlSubMenuVenda);
+        }
+
+        private void btnMenuEstoque_Click(object sender, EventArgs e)
+        {
+            SubMenu.MostraOuEsconde(pnlSubMenuEstoque);
+        }
+
+        private void btnMenuFornecedor_Click(object sender, EventArgs e)
+        {
+            SubMenu.MostraOuEsconde(pnlSubMenuFornecedor);
+        }
+
+        private void btnMenuUsuario_Click(object sender, EventArgs e)
+        {
+            SubMenu.MostraOuEsconde(pnlSubMenuUsuario);
+        }
         private void seila()
         {
             /*
@@ -43,31 +65,6 @@ namespace LaPizza
                 FmrCliente.BringToFront();
             }*/
 
-        }
-
-        private void btnMenuCliente_Click(object sender, EventArgs e)
-        {
-            Menu.SubMenuMostrarOuEsconder(pnlSubMenuCliente);
-        }
-
-        private void btnMenuVenda_Click(object sender, EventArgs e)
-        {
-            Menu.SubMenuMostrarOuEsconder(pnlSubMenuVenda);
-        }
-
-        private void btnMenuEstoque_Click(object sender, EventArgs e)
-        {
-            Menu.SubMenuMostrarOuEsconder(pnlSubMenuEstoque);
-        }
-
-        private void btnMenuFornecedor_Click(object sender, EventArgs e)
-        {
-            Menu.SubMenuMostrarOuEsconder(pnlSubMenuFornecedor);
-        }
-
-        private void btnMenuUsuario_Click(object sender, EventArgs e)
-        {
-            Menu.SubMenuMostrarOuEsconder(pnlSubMenuUsuario);
         }
     }
 }

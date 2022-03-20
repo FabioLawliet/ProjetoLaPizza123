@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\_Projetos\\LaPizza\\LaPizza\\LaPizza.csproj",
+      "projectUniqueName": "C:\\Projetos\\LaPizza\\LaPizza.csproj",
       "projectName": "LaPizza",
-      "projectPath": "D:\\_Projetos\\LaPizza\\LaPizza\\LaPizza.csproj",
+      "projectPath": "C:\\Projetos\\LaPizza\\LaPizza.csproj",
       "packagesPath": "C:\\Users\\1known\\.nuget\\packages\\",
-      "outputPath": "D:\\_Projetos\\LaPizza\\LaPizza\\obj\\",
+      "outputPath": "C:\\Projetos\\LaPizza\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

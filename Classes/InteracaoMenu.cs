@@ -7,7 +7,7 @@ namespace LaPizza.Classes
     {
 
         
-        public void SubMenuMostrarOuEsconder(Panel subMenu)
+        public void MostraOuEsconde(Panel subMenu)
         {
             if (subMenu.Visible == false)
                 subMenu.Visible = true;
@@ -15,9 +15,9 @@ namespace LaPizza.Classes
                 subMenu.Visible = false;
         }
         
-        public void SubMenuEsconderTodos(Control.ControlCollection Controls)
+        public void EscondeTodos(Control.ControlCollection controls)
         {
-           foreach(Control ctr in Controls)
+           foreach(Control ctr in controls)
                 if (ctr is Panel)
                     if (ctr.Name.Contains("pnlSubMenu"))
                         ctr.Visible = false;

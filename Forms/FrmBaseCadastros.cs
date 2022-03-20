@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace LaPizza.Forms
 {
-    public partial class FmrCadastroCliente : Form
+    public partial class FrmBaseCadastros : Form
     {
-        public FmrCadastroCliente()
+        public FrmBaseCadastros()
         {
             InitializeComponent();
         }

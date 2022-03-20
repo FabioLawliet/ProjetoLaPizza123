@@ -43,21 +43,21 @@ namespace LaPizza
             this.btnForCadastro = new System.Windows.Forms.Button();
             this.btnMenuFornecedor = new System.Windows.Forms.Button();
             this.pnlSubMenuEstoque = new System.Windows.Forms.Panel();
-            this.btnEstControle = new System.Windows.Forms.Button();
-            this.btnEstEntradaMerc = new System.Windows.Forms.Button();
-            this.btnEstSubGrupo = new System.Windows.Forms.Button();
-            this.btnEstGrupo = new System.Windows.Forms.Button();
-            this.btnEstMarca = new System.Windows.Forms.Button();
-            this.btnEstProduto = new System.Windows.Forms.Button();
+            this.btnSMEstControle = new System.Windows.Forms.Button();
+            this.btnSMEstEntradaMerc = new System.Windows.Forms.Button();
+            this.btnSMEstSubGrupo = new System.Windows.Forms.Button();
+            this.btnSMEstGrupo = new System.Windows.Forms.Button();
+            this.btnSMEstMarca = new System.Windows.Forms.Button();
+            this.btnSMEstProduto = new System.Windows.Forms.Button();
             this.btnMenuEstoque = new System.Windows.Forms.Button();
             this.pnlSubMenuVenda = new System.Windows.Forms.Panel();
-            this.btnVenRelatorio = new System.Windows.Forms.Button();
-            this.btnVenRegistro = new System.Windows.Forms.Button();
-            this.btnVenPedido = new System.Windows.Forms.Button();
+            this.btnSMVenRelatorio = new System.Windows.Forms.Button();
+            this.btnSMVenRegistro = new System.Windows.Forms.Button();
+            this.btnSMVenPedido = new System.Windows.Forms.Button();
             this.btnMenuVenda = new System.Windows.Forms.Button();
             this.pnlSubMenuCliente = new System.Windows.Forms.Panel();
-            this.btnCliRelatorio = new System.Windows.Forms.Button();
-            this.btnCliCadastro = new System.Windows.Forms.Button();
+            this.btnSMCliRelatorio = new System.Windows.Forms.Button();
+            this.btnSMCliCadastro = new System.Windows.Forms.Button();
             this.btnMenuCliente = new System.Windows.Forms.Button();
             this.pnlLogo = new System.Windows.Forms.Panel();
             this.pnlMenu.SuspendLayout();
@@ -77,7 +77,7 @@ namespace LaPizza
             this.pnlRotinas.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlRotinas.Location = new System.Drawing.Point(255, 0);
             this.pnlRotinas.Name = "pnlRotinas";
-            this.pnlRotinas.Size = new System.Drawing.Size(753, 802);
+            this.pnlRotinas.Size = new System.Drawing.Size(753, 659);
             this.pnlRotinas.TabIndex = 1;
             // 
             // pnlMenu
@@ -88,7 +88,7 @@ namespace LaPizza
             this.pnlMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlMenu.Location = new System.Drawing.Point(0, 0);
             this.pnlMenu.Name = "pnlMenu";
-            this.pnlMenu.Size = new System.Drawing.Size(255, 802);
+            this.pnlMenu.Size = new System.Drawing.Size(255, 659);
             this.pnlMenu.TabIndex = 2;
             // 
             // pnlMenus
@@ -109,7 +109,7 @@ namespace LaPizza
             this.pnlMenus.Location = new System.Drawing.Point(0, 100);
             this.pnlMenus.MaximumSize = new System.Drawing.Size(250, 0);
             this.pnlMenus.Name = "pnlMenus";
-            this.pnlMenus.Size = new System.Drawing.Size(250, 702);
+            this.pnlMenus.Size = new System.Drawing.Size(250, 559);
             this.pnlMenus.TabIndex = 2;
             // 
             // pnlSubMenuUsuario
@@ -122,7 +122,7 @@ namespace LaPizza
             this.pnlSubMenuUsuario.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlSubMenuUsuario.Location = new System.Drawing.Point(0, 525);
             this.pnlSubMenuUsuario.Name = "pnlSubMenuUsuario";
-            this.pnlSubMenuUsuario.Size = new System.Drawing.Size(250, 75);
+            this.pnlSubMenuUsuario.Size = new System.Drawing.Size(233, 75);
             this.pnlSubMenuUsuario.TabIndex = 10;
             // 
             // btnUsuPermissoes
@@ -138,7 +138,7 @@ namespace LaPizza
             this.btnUsuPermissoes.Location = new System.Drawing.Point(0, 50);
             this.btnUsuPermissoes.Name = "btnUsuPermissoes";
             this.btnUsuPermissoes.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnUsuPermissoes.Size = new System.Drawing.Size(250, 25);
+            this.btnUsuPermissoes.Size = new System.Drawing.Size(233, 25);
             this.btnUsuPermissoes.TabIndex = 5;
             this.btnUsuPermissoes.Text = "Controle de Permissões";
             this.btnUsuPermissoes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -157,7 +157,7 @@ namespace LaPizza
             this.btnUsuControleAcesso.Location = new System.Drawing.Point(0, 25);
             this.btnUsuControleAcesso.Name = "btnUsuControleAcesso";
             this.btnUsuControleAcesso.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnUsuControleAcesso.Size = new System.Drawing.Size(250, 25);
+            this.btnUsuControleAcesso.Size = new System.Drawing.Size(233, 25);
             this.btnUsuControleAcesso.TabIndex = 4;
             this.btnUsuControleAcesso.Text = "Controle de Acesso";
             this.btnUsuControleAcesso.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -176,7 +176,7 @@ namespace LaPizza
             this.btnUsuCadastro.Location = new System.Drawing.Point(0, 0);
             this.btnUsuCadastro.Name = "btnUsuCadastro";
             this.btnUsuCadastro.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnUsuCadastro.Size = new System.Drawing.Size(250, 25);
+            this.btnUsuCadastro.Size = new System.Drawing.Size(233, 25);
             this.btnUsuCadastro.TabIndex = 2;
             this.btnUsuCadastro.Text = "Cadastro de Usuário";
             this.btnUsuCadastro.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -194,7 +194,7 @@ namespace LaPizza
             this.btnMenuUsuario.Location = new System.Drawing.Point(0, 485);
             this.btnMenuUsuario.Name = "btnMenuUsuario";
             this.btnMenuUsuario.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.btnMenuUsuario.Size = new System.Drawing.Size(250, 40);
+            this.btnMenuUsuario.Size = new System.Drawing.Size(233, 40);
             this.btnMenuUsuario.TabIndex = 9;
             this.btnMenuUsuario.Text = "Usuário";
             this.btnMenuUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -210,7 +210,7 @@ namespace LaPizza
             this.pnlSubMenuFornecedor.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlSubMenuFornecedor.Location = new System.Drawing.Point(0, 435);
             this.pnlSubMenuFornecedor.Name = "pnlSubMenuFornecedor";
-            this.pnlSubMenuFornecedor.Size = new System.Drawing.Size(250, 50);
+            this.pnlSubMenuFornecedor.Size = new System.Drawing.Size(233, 50);
             this.pnlSubMenuFornecedor.TabIndex = 8;
             // 
             // bntForRelatorio
@@ -226,7 +226,7 @@ namespace LaPizza
             this.bntForRelatorio.Location = new System.Drawing.Point(0, 25);
             this.bntForRelatorio.Name = "bntForRelatorio";
             this.bntForRelatorio.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.bntForRelatorio.Size = new System.Drawing.Size(250, 25);
+            this.bntForRelatorio.Size = new System.Drawing.Size(233, 25);
             this.bntForRelatorio.TabIndex = 4;
             this.bntForRelatorio.Text = "Relatório de Fornecedores";
             this.bntForRelatorio.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -245,7 +245,7 @@ namespace LaPizza
             this.btnForCadastro.Location = new System.Drawing.Point(0, 0);
             this.btnForCadastro.Name = "btnForCadastro";
             this.btnForCadastro.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnForCadastro.Size = new System.Drawing.Size(250, 25);
+            this.btnForCadastro.Size = new System.Drawing.Size(233, 25);
             this.btnForCadastro.TabIndex = 2;
             this.btnForCadastro.Text = "Cadastro de Fornecedor";
             this.btnForCadastro.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -263,7 +263,7 @@ namespace LaPizza
             this.btnMenuFornecedor.Location = new System.Drawing.Point(0, 395);
             this.btnMenuFornecedor.Name = "btnMenuFornecedor";
             this.btnMenuFornecedor.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.btnMenuFornecedor.Size = new System.Drawing.Size(250, 40);
+            this.btnMenuFornecedor.Size = new System.Drawing.Size(233, 40);
             this.btnMenuFornecedor.TabIndex = 7;
             this.btnMenuFornecedor.Text = "Fornecedor";
             this.btnMenuFornecedor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -274,131 +274,131 @@ namespace LaPizza
             // 
             this.pnlSubMenuEstoque.AutoSize = true;
             this.pnlSubMenuEstoque.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            this.pnlSubMenuEstoque.Controls.Add(this.btnEstControle);
-            this.pnlSubMenuEstoque.Controls.Add(this.btnEstEntradaMerc);
-            this.pnlSubMenuEstoque.Controls.Add(this.btnEstSubGrupo);
-            this.pnlSubMenuEstoque.Controls.Add(this.btnEstGrupo);
-            this.pnlSubMenuEstoque.Controls.Add(this.btnEstMarca);
-            this.pnlSubMenuEstoque.Controls.Add(this.btnEstProduto);
+            this.pnlSubMenuEstoque.Controls.Add(this.btnSMEstControle);
+            this.pnlSubMenuEstoque.Controls.Add(this.btnSMEstEntradaMerc);
+            this.pnlSubMenuEstoque.Controls.Add(this.btnSMEstSubGrupo);
+            this.pnlSubMenuEstoque.Controls.Add(this.btnSMEstGrupo);
+            this.pnlSubMenuEstoque.Controls.Add(this.btnSMEstMarca);
+            this.pnlSubMenuEstoque.Controls.Add(this.btnSMEstProduto);
             this.pnlSubMenuEstoque.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlSubMenuEstoque.Location = new System.Drawing.Point(0, 245);
             this.pnlSubMenuEstoque.Name = "pnlSubMenuEstoque";
-            this.pnlSubMenuEstoque.Size = new System.Drawing.Size(250, 150);
+            this.pnlSubMenuEstoque.Size = new System.Drawing.Size(233, 150);
             this.pnlSubMenuEstoque.TabIndex = 6;
             // 
-            // btnEstControle
+            // btnSMEstControle
             // 
-            this.btnEstControle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.btnEstControle.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnEstControle.FlatAppearance.BorderSize = 0;
-            this.btnEstControle.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightCoral;
-            this.btnEstControle.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Firebrick;
-            this.btnEstControle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEstControle.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnEstControle.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnEstControle.Location = new System.Drawing.Point(0, 125);
-            this.btnEstControle.Name = "btnEstControle";
-            this.btnEstControle.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnEstControle.Size = new System.Drawing.Size(250, 25);
-            this.btnEstControle.TabIndex = 9;
-            this.btnEstControle.Text = "Controle de Estoque";
-            this.btnEstControle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEstControle.UseVisualStyleBackColor = false;
+            this.btnSMEstControle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnSMEstControle.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnSMEstControle.FlatAppearance.BorderSize = 0;
+            this.btnSMEstControle.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightCoral;
+            this.btnSMEstControle.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Firebrick;
+            this.btnSMEstControle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSMEstControle.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnSMEstControle.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnSMEstControle.Location = new System.Drawing.Point(0, 125);
+            this.btnSMEstControle.Name = "btnSMEstControle";
+            this.btnSMEstControle.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnSMEstControle.Size = new System.Drawing.Size(233, 25);
+            this.btnSMEstControle.TabIndex = 9;
+            this.btnSMEstControle.Text = "Controle de Estoque";
+            this.btnSMEstControle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSMEstControle.UseVisualStyleBackColor = false;
             // 
-            // btnEstEntradaMerc
+            // btnSMEstEntradaMerc
             // 
-            this.btnEstEntradaMerc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.btnEstEntradaMerc.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnEstEntradaMerc.FlatAppearance.BorderSize = 0;
-            this.btnEstEntradaMerc.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightCoral;
-            this.btnEstEntradaMerc.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Firebrick;
-            this.btnEstEntradaMerc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEstEntradaMerc.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnEstEntradaMerc.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnEstEntradaMerc.Location = new System.Drawing.Point(0, 100);
-            this.btnEstEntradaMerc.Name = "btnEstEntradaMerc";
-            this.btnEstEntradaMerc.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnEstEntradaMerc.Size = new System.Drawing.Size(250, 25);
-            this.btnEstEntradaMerc.TabIndex = 8;
-            this.btnEstEntradaMerc.Text = "Entrada de Mercadorias";
-            this.btnEstEntradaMerc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEstEntradaMerc.UseVisualStyleBackColor = false;
+            this.btnSMEstEntradaMerc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnSMEstEntradaMerc.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnSMEstEntradaMerc.FlatAppearance.BorderSize = 0;
+            this.btnSMEstEntradaMerc.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightCoral;
+            this.btnSMEstEntradaMerc.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Firebrick;
+            this.btnSMEstEntradaMerc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSMEstEntradaMerc.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnSMEstEntradaMerc.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnSMEstEntradaMerc.Location = new System.Drawing.Point(0, 100);
+            this.btnSMEstEntradaMerc.Name = "btnSMEstEntradaMerc";
+            this.btnSMEstEntradaMerc.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnSMEstEntradaMerc.Size = new System.Drawing.Size(233, 25);
+            this.btnSMEstEntradaMerc.TabIndex = 8;
+            this.btnSMEstEntradaMerc.Text = "Entrada de Mercadorias";
+            this.btnSMEstEntradaMerc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSMEstEntradaMerc.UseVisualStyleBackColor = false;
             // 
-            // btnEstSubGrupo
+            // btnSMEstSubGrupo
             // 
-            this.btnEstSubGrupo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.btnEstSubGrupo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnEstSubGrupo.FlatAppearance.BorderSize = 0;
-            this.btnEstSubGrupo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightCoral;
-            this.btnEstSubGrupo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Firebrick;
-            this.btnEstSubGrupo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEstSubGrupo.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnEstSubGrupo.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnEstSubGrupo.Location = new System.Drawing.Point(0, 75);
-            this.btnEstSubGrupo.Name = "btnEstSubGrupo";
-            this.btnEstSubGrupo.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnEstSubGrupo.Size = new System.Drawing.Size(250, 25);
-            this.btnEstSubGrupo.TabIndex = 7;
-            this.btnEstSubGrupo.Text = "Cadastro de Sub Grupos";
-            this.btnEstSubGrupo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEstSubGrupo.UseVisualStyleBackColor = false;
+            this.btnSMEstSubGrupo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnSMEstSubGrupo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnSMEstSubGrupo.FlatAppearance.BorderSize = 0;
+            this.btnSMEstSubGrupo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightCoral;
+            this.btnSMEstSubGrupo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Firebrick;
+            this.btnSMEstSubGrupo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSMEstSubGrupo.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnSMEstSubGrupo.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnSMEstSubGrupo.Location = new System.Drawing.Point(0, 75);
+            this.btnSMEstSubGrupo.Name = "btnSMEstSubGrupo";
+            this.btnSMEstSubGrupo.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnSMEstSubGrupo.Size = new System.Drawing.Size(233, 25);
+            this.btnSMEstSubGrupo.TabIndex = 7;
+            this.btnSMEstSubGrupo.Text = "Cadastro de Sub Grupos";
+            this.btnSMEstSubGrupo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSMEstSubGrupo.UseVisualStyleBackColor = false;
             // 
-            // btnEstGrupo
+            // btnSMEstGrupo
             // 
-            this.btnEstGrupo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.btnEstGrupo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnEstGrupo.FlatAppearance.BorderSize = 0;
-            this.btnEstGrupo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightCoral;
-            this.btnEstGrupo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Firebrick;
-            this.btnEstGrupo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEstGrupo.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnEstGrupo.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnEstGrupo.Location = new System.Drawing.Point(0, 50);
-            this.btnEstGrupo.Name = "btnEstGrupo";
-            this.btnEstGrupo.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnEstGrupo.Size = new System.Drawing.Size(250, 25);
-            this.btnEstGrupo.TabIndex = 6;
-            this.btnEstGrupo.Text = "Cadastro de Grupos";
-            this.btnEstGrupo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEstGrupo.UseVisualStyleBackColor = false;
+            this.btnSMEstGrupo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnSMEstGrupo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnSMEstGrupo.FlatAppearance.BorderSize = 0;
+            this.btnSMEstGrupo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightCoral;
+            this.btnSMEstGrupo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Firebrick;
+            this.btnSMEstGrupo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSMEstGrupo.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnSMEstGrupo.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnSMEstGrupo.Location = new System.Drawing.Point(0, 50);
+            this.btnSMEstGrupo.Name = "btnSMEstGrupo";
+            this.btnSMEstGrupo.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnSMEstGrupo.Size = new System.Drawing.Size(233, 25);
+            this.btnSMEstGrupo.TabIndex = 6;
+            this.btnSMEstGrupo.Text = "Cadastro de Grupos";
+            this.btnSMEstGrupo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSMEstGrupo.UseVisualStyleBackColor = false;
             // 
-            // btnEstMarca
+            // btnSMEstMarca
             // 
-            this.btnEstMarca.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.btnEstMarca.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnEstMarca.FlatAppearance.BorderSize = 0;
-            this.btnEstMarca.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightCoral;
-            this.btnEstMarca.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Firebrick;
-            this.btnEstMarca.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEstMarca.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnEstMarca.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnEstMarca.Location = new System.Drawing.Point(0, 25);
-            this.btnEstMarca.Name = "btnEstMarca";
-            this.btnEstMarca.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnEstMarca.Size = new System.Drawing.Size(250, 25);
-            this.btnEstMarca.TabIndex = 5;
-            this.btnEstMarca.Text = "Cadastro de Marcas";
-            this.btnEstMarca.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEstMarca.UseVisualStyleBackColor = false;
+            this.btnSMEstMarca.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnSMEstMarca.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnSMEstMarca.FlatAppearance.BorderSize = 0;
+            this.btnSMEstMarca.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightCoral;
+            this.btnSMEstMarca.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Firebrick;
+            this.btnSMEstMarca.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSMEstMarca.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnSMEstMarca.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnSMEstMarca.Location = new System.Drawing.Point(0, 25);
+            this.btnSMEstMarca.Name = "btnSMEstMarca";
+            this.btnSMEstMarca.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnSMEstMarca.Size = new System.Drawing.Size(233, 25);
+            this.btnSMEstMarca.TabIndex = 5;
+            this.btnSMEstMarca.Text = "Cadastro de Marcas";
+            this.btnSMEstMarca.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSMEstMarca.UseVisualStyleBackColor = false;
             // 
-            // btnEstProduto
+            // btnSMEstProduto
             // 
-            this.btnEstProduto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.btnEstProduto.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnEstProduto.FlatAppearance.BorderSize = 0;
-            this.btnEstProduto.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightCoral;
-            this.btnEstProduto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Firebrick;
-            this.btnEstProduto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEstProduto.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnEstProduto.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnEstProduto.Location = new System.Drawing.Point(0, 0);
-            this.btnEstProduto.Name = "btnEstProduto";
-            this.btnEstProduto.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnEstProduto.Size = new System.Drawing.Size(250, 25);
-            this.btnEstProduto.TabIndex = 2;
-            this.btnEstProduto.Text = "Cadastro de Produtos";
-            this.btnEstProduto.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEstProduto.UseVisualStyleBackColor = false;
+            this.btnSMEstProduto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnSMEstProduto.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnSMEstProduto.FlatAppearance.BorderSize = 0;
+            this.btnSMEstProduto.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightCoral;
+            this.btnSMEstProduto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Firebrick;
+            this.btnSMEstProduto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSMEstProduto.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnSMEstProduto.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnSMEstProduto.Location = new System.Drawing.Point(0, 0);
+            this.btnSMEstProduto.Name = "btnSMEstProduto";
+            this.btnSMEstProduto.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnSMEstProduto.Size = new System.Drawing.Size(233, 25);
+            this.btnSMEstProduto.TabIndex = 2;
+            this.btnSMEstProduto.Text = "Cadastro de Produtos";
+            this.btnSMEstProduto.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSMEstProduto.UseVisualStyleBackColor = false;
             // 
             // btnMenuEstoque
             // 
@@ -412,7 +412,7 @@ namespace LaPizza
             this.btnMenuEstoque.Location = new System.Drawing.Point(0, 205);
             this.btnMenuEstoque.Name = "btnMenuEstoque";
             this.btnMenuEstoque.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.btnMenuEstoque.Size = new System.Drawing.Size(250, 40);
+            this.btnMenuEstoque.Size = new System.Drawing.Size(233, 40);
             this.btnMenuEstoque.TabIndex = 5;
             this.btnMenuEstoque.Text = "Estoque";
             this.btnMenuEstoque.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -423,71 +423,71 @@ namespace LaPizza
             // 
             this.pnlSubMenuVenda.AutoSize = true;
             this.pnlSubMenuVenda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            this.pnlSubMenuVenda.Controls.Add(this.btnVenRelatorio);
-            this.pnlSubMenuVenda.Controls.Add(this.btnVenRegistro);
-            this.pnlSubMenuVenda.Controls.Add(this.btnVenPedido);
+            this.pnlSubMenuVenda.Controls.Add(this.btnSMVenRelatorio);
+            this.pnlSubMenuVenda.Controls.Add(this.btnSMVenRegistro);
+            this.pnlSubMenuVenda.Controls.Add(this.btnSMVenPedido);
             this.pnlSubMenuVenda.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlSubMenuVenda.Location = new System.Drawing.Point(0, 130);
             this.pnlSubMenuVenda.Name = "pnlSubMenuVenda";
-            this.pnlSubMenuVenda.Size = new System.Drawing.Size(250, 75);
+            this.pnlSubMenuVenda.Size = new System.Drawing.Size(233, 75);
             this.pnlSubMenuVenda.TabIndex = 4;
             // 
-            // btnVenRelatorio
+            // btnSMVenRelatorio
             // 
-            this.btnVenRelatorio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.btnVenRelatorio.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnVenRelatorio.FlatAppearance.BorderSize = 0;
-            this.btnVenRelatorio.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightCoral;
-            this.btnVenRelatorio.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Firebrick;
-            this.btnVenRelatorio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVenRelatorio.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnVenRelatorio.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnVenRelatorio.Location = new System.Drawing.Point(0, 50);
-            this.btnVenRelatorio.Name = "btnVenRelatorio";
-            this.btnVenRelatorio.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnVenRelatorio.Size = new System.Drawing.Size(250, 25);
-            this.btnVenRelatorio.TabIndex = 3;
-            this.btnVenRelatorio.Text = "Relatórios de Vendas";
-            this.btnVenRelatorio.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVenRelatorio.UseVisualStyleBackColor = false;
+            this.btnSMVenRelatorio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnSMVenRelatorio.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnSMVenRelatorio.FlatAppearance.BorderSize = 0;
+            this.btnSMVenRelatorio.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightCoral;
+            this.btnSMVenRelatorio.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Firebrick;
+            this.btnSMVenRelatorio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSMVenRelatorio.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnSMVenRelatorio.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnSMVenRelatorio.Location = new System.Drawing.Point(0, 50);
+            this.btnSMVenRelatorio.Name = "btnSMVenRelatorio";
+            this.btnSMVenRelatorio.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnSMVenRelatorio.Size = new System.Drawing.Size(233, 25);
+            this.btnSMVenRelatorio.TabIndex = 3;
+            this.btnSMVenRelatorio.Text = "Relatórios de Vendas";
+            this.btnSMVenRelatorio.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSMVenRelatorio.UseVisualStyleBackColor = false;
             // 
-            // btnVenRegistro
+            // btnSMVenRegistro
             // 
-            this.btnVenRegistro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.btnVenRegistro.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnVenRegistro.FlatAppearance.BorderSize = 0;
-            this.btnVenRegistro.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightCoral;
-            this.btnVenRegistro.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Firebrick;
-            this.btnVenRegistro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVenRegistro.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnVenRegistro.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnVenRegistro.Location = new System.Drawing.Point(0, 25);
-            this.btnVenRegistro.Name = "btnVenRegistro";
-            this.btnVenRegistro.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnVenRegistro.Size = new System.Drawing.Size(250, 25);
-            this.btnVenRegistro.TabIndex = 4;
-            this.btnVenRegistro.Text = "Registrar Venda";
-            this.btnVenRegistro.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVenRegistro.UseVisualStyleBackColor = false;
+            this.btnSMVenRegistro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnSMVenRegistro.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnSMVenRegistro.FlatAppearance.BorderSize = 0;
+            this.btnSMVenRegistro.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightCoral;
+            this.btnSMVenRegistro.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Firebrick;
+            this.btnSMVenRegistro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSMVenRegistro.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnSMVenRegistro.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnSMVenRegistro.Location = new System.Drawing.Point(0, 25);
+            this.btnSMVenRegistro.Name = "btnSMVenRegistro";
+            this.btnSMVenRegistro.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnSMVenRegistro.Size = new System.Drawing.Size(233, 25);
+            this.btnSMVenRegistro.TabIndex = 4;
+            this.btnSMVenRegistro.Text = "Registrar Venda";
+            this.btnSMVenRegistro.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSMVenRegistro.UseVisualStyleBackColor = false;
             // 
-            // btnVenPedido
+            // btnSMVenPedido
             // 
-            this.btnVenPedido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.btnVenPedido.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnVenPedido.FlatAppearance.BorderSize = 0;
-            this.btnVenPedido.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightCoral;
-            this.btnVenPedido.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Firebrick;
-            this.btnVenPedido.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVenPedido.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnVenPedido.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnVenPedido.Location = new System.Drawing.Point(0, 0);
-            this.btnVenPedido.Name = "btnVenPedido";
-            this.btnVenPedido.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnVenPedido.Size = new System.Drawing.Size(250, 25);
-            this.btnVenPedido.TabIndex = 2;
-            this.btnVenPedido.Text = "Pedido de Venda";
-            this.btnVenPedido.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVenPedido.UseVisualStyleBackColor = false;
+            this.btnSMVenPedido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnSMVenPedido.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnSMVenPedido.FlatAppearance.BorderSize = 0;
+            this.btnSMVenPedido.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightCoral;
+            this.btnSMVenPedido.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Firebrick;
+            this.btnSMVenPedido.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSMVenPedido.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnSMVenPedido.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnSMVenPedido.Location = new System.Drawing.Point(0, 0);
+            this.btnSMVenPedido.Name = "btnSMVenPedido";
+            this.btnSMVenPedido.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnSMVenPedido.Size = new System.Drawing.Size(233, 25);
+            this.btnSMVenPedido.TabIndex = 2;
+            this.btnSMVenPedido.Text = "Pedido de Venda";
+            this.btnSMVenPedido.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSMVenPedido.UseVisualStyleBackColor = false;
             // 
             // btnMenuVenda
             // 
@@ -501,7 +501,7 @@ namespace LaPizza
             this.btnMenuVenda.Location = new System.Drawing.Point(0, 90);
             this.btnMenuVenda.Name = "btnMenuVenda";
             this.btnMenuVenda.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.btnMenuVenda.Size = new System.Drawing.Size(250, 40);
+            this.btnMenuVenda.Size = new System.Drawing.Size(233, 40);
             this.btnMenuVenda.TabIndex = 3;
             this.btnMenuVenda.Text = "Venda";
             this.btnMenuVenda.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -512,54 +512,55 @@ namespace LaPizza
             // 
             this.pnlSubMenuCliente.AutoSize = true;
             this.pnlSubMenuCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            this.pnlSubMenuCliente.Controls.Add(this.btnCliRelatorio);
-            this.pnlSubMenuCliente.Controls.Add(this.btnCliCadastro);
+            this.pnlSubMenuCliente.Controls.Add(this.btnSMCliRelatorio);
+            this.pnlSubMenuCliente.Controls.Add(this.btnSMCliCadastro);
             this.pnlSubMenuCliente.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlSubMenuCliente.Location = new System.Drawing.Point(0, 40);
             this.pnlSubMenuCliente.Name = "pnlSubMenuCliente";
-            this.pnlSubMenuCliente.Size = new System.Drawing.Size(250, 50);
+            this.pnlSubMenuCliente.Size = new System.Drawing.Size(233, 50);
             this.pnlSubMenuCliente.TabIndex = 2;
             // 
-            // btnCliRelatorio
+            // btnSMCliRelatorio
             // 
-            this.btnCliRelatorio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.btnCliRelatorio.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnCliRelatorio.FlatAppearance.BorderSize = 0;
-            this.btnCliRelatorio.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightCoral;
-            this.btnCliRelatorio.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Firebrick;
-            this.btnCliRelatorio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCliRelatorio.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnCliRelatorio.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnCliRelatorio.Location = new System.Drawing.Point(0, 25);
-            this.btnCliRelatorio.Name = "btnCliRelatorio";
-            this.btnCliRelatorio.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnCliRelatorio.Size = new System.Drawing.Size(250, 25);
-            this.btnCliRelatorio.TabIndex = 3;
-            this.btnCliRelatorio.Text = "Relatórios de Clientes";
-            this.btnCliRelatorio.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCliRelatorio.UseVisualStyleBackColor = false;
+            this.btnSMCliRelatorio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnSMCliRelatorio.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnSMCliRelatorio.FlatAppearance.BorderSize = 0;
+            this.btnSMCliRelatorio.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightCoral;
+            this.btnSMCliRelatorio.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Firebrick;
+            this.btnSMCliRelatorio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSMCliRelatorio.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnSMCliRelatorio.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnSMCliRelatorio.Location = new System.Drawing.Point(0, 25);
+            this.btnSMCliRelatorio.Name = "btnSMCliRelatorio";
+            this.btnSMCliRelatorio.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnSMCliRelatorio.Size = new System.Drawing.Size(233, 25);
+            this.btnSMCliRelatorio.TabIndex = 3;
+            this.btnSMCliRelatorio.Text = "Relatórios de Clientes";
+            this.btnSMCliRelatorio.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSMCliRelatorio.UseVisualStyleBackColor = false;
             // 
-            // btnCliCadastro
+            // btnSMCliCadastro
             // 
-            this.btnCliCadastro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.btnCliCadastro.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnCliCadastro.FlatAppearance.BorderSize = 0;
-            this.btnCliCadastro.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightCoral;
-            this.btnCliCadastro.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Firebrick;
-            this.btnCliCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCliCadastro.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnCliCadastro.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnCliCadastro.Location = new System.Drawing.Point(0, 0);
-            this.btnCliCadastro.Name = "btnCliCadastro";
-            this.btnCliCadastro.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnCliCadastro.Size = new System.Drawing.Size(250, 25);
-            this.btnCliCadastro.TabIndex = 2;
-            this.btnCliCadastro.Text = "Cadastro de Cliente";
-            this.btnCliCadastro.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCliCadastro.UseVisualStyleBackColor = false;
+            this.btnSMCliCadastro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnSMCliCadastro.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnSMCliCadastro.FlatAppearance.BorderSize = 0;
+            this.btnSMCliCadastro.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightCoral;
+            this.btnSMCliCadastro.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Firebrick;
+            this.btnSMCliCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSMCliCadastro.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnSMCliCadastro.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnSMCliCadastro.Location = new System.Drawing.Point(0, 0);
+            this.btnSMCliCadastro.Name = "btnSMCliCadastro";
+            this.btnSMCliCadastro.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnSMCliCadastro.Size = new System.Drawing.Size(233, 25);
+            this.btnSMCliCadastro.TabIndex = 2;
+            this.btnSMCliCadastro.Text = "Cadastro de Cliente";
+            this.btnSMCliCadastro.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSMCliCadastro.UseVisualStyleBackColor = false;
             // 
             // btnMenuCliente
             // 
+            this.btnMenuCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
             this.btnMenuCliente.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnMenuCliente.FlatAppearance.BorderSize = 0;
             this.btnMenuCliente.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightCoral;
@@ -570,7 +571,7 @@ namespace LaPizza
             this.btnMenuCliente.Location = new System.Drawing.Point(0, 0);
             this.btnMenuCliente.Name = "btnMenuCliente";
             this.btnMenuCliente.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.btnMenuCliente.Size = new System.Drawing.Size(250, 40);
+            this.btnMenuCliente.Size = new System.Drawing.Size(233, 40);
             this.btnMenuCliente.TabIndex = 1;
             this.btnMenuCliente.Text = "Cliente";
             this.btnMenuCliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -593,7 +594,7 @@ namespace LaPizza
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1008, 802);
+            this.ClientSize = new System.Drawing.Size(1008, 659);
             this.Controls.Add(this.pnlRotinas);
             this.Controls.Add(this.pnlMenu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -622,21 +623,21 @@ namespace LaPizza
         private System.Windows.Forms.Button btnForCadastro;
         private System.Windows.Forms.Button btnMenuFornecedor;
         private System.Windows.Forms.Panel pnlSubMenuEstoque;
-        private System.Windows.Forms.Button btnEstControle;
-        private System.Windows.Forms.Button btnEstEntradaMerc;
-        private System.Windows.Forms.Button btnEstSubGrupo;
-        private System.Windows.Forms.Button btnEstGrupo;
-        private System.Windows.Forms.Button btnEstMarca;
-        private System.Windows.Forms.Button btnEstProduto;
+        private System.Windows.Forms.Button btnSMEstControle;
+        private System.Windows.Forms.Button btnSMEstEntradaMerc;
+        private System.Windows.Forms.Button btnSMEstSubGrupo;
+        private System.Windows.Forms.Button btnSMEstGrupo;
+        private System.Windows.Forms.Button btnSMEstMarca;
+        private System.Windows.Forms.Button btnSMEstProduto;
         private System.Windows.Forms.Button btnMenuEstoque;
         private System.Windows.Forms.Panel pnlSubMenuVenda;
-        private System.Windows.Forms.Button btnVenRelatorio;
-        private System.Windows.Forms.Button btnVenRegistro;
-        private System.Windows.Forms.Button btnVenPedido;
+        private System.Windows.Forms.Button btnSMVenRelatorio;
+        private System.Windows.Forms.Button btnSMVenRegistro;
+        private System.Windows.Forms.Button btnSMVenPedido;
         private System.Windows.Forms.Button btnMenuVenda;
         private System.Windows.Forms.Panel pnlSubMenuCliente;
-        private System.Windows.Forms.Button btnCliRelatorio;
-        private System.Windows.Forms.Button btnCliCadastro;
+        private System.Windows.Forms.Button btnSMCliRelatorio;
+        private System.Windows.Forms.Button btnSMCliCadastro;
         private System.Windows.Forms.Button btnMenuCliente;
         private System.Windows.Forms.Panel pnlLogo;
         private System.Windows.Forms.Panel pnlSubMenuUsuario;

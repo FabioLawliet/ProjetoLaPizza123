@@ -118,25 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Cliente" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Icons\Cliente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="AcaoAdicionar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\AcaoAdicionar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CadastroAdicionar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Icons\CadastroAdicionar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="AcaoConsultar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\AcaoConsultar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Seta" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Icons\Seta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="AcaoEditar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\AcaoEditar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CadastroAdicionar40x40" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Icons\CadastroAdicionar40x40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CadastroConsultar40x40" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Icons\CadastroConsultar40x40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CadastroEditar40x40" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Icons\CadastroEditar40x40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CadastroExcluir40x40" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Icons\CadastroExcluir40x40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="AcaoExcluir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icons\AcaoExcluir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

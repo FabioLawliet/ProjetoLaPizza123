@@ -4,7 +4,7 @@
     <Compile Update="Forms\FmrPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\FmrCadastroCliente.cs">
+    <Compile Update="Forms\FrmBaseCadastros.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
