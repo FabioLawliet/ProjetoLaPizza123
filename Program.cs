@@ -17,7 +17,7 @@ namespace LaPizza
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FmrPrincipal());
+            Application.Run(new FrmPrincipal());
         }
     }
 }

@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Perfil 1": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Projetos\\LaPizza\\bin\\Debug\\net5.0-windows\\LaPizza.exe",
+      "workingDirectory": "C:\\Projetos\\LaPizza"
+    }
+  }
+}

@@ -5,10 +5,10 @@ using LaPizza.Classes;
 
 namespace LaPizza
 {
-    public partial class FmrPrincipal : Form
+    public partial class FrmPrincipal : Form
     {
         public static InteracaoMenu SubMenu;
-        public FmrPrincipal()
+        public FrmPrincipal()
         {
             InitializeComponent();
             SubMenu = new InteracaoMenu();
@@ -65,6 +65,12 @@ namespace LaPizza
                 FmrCliente.BringToFront();
             }*/
 
+        }
+
+        private void btnSMCliCadastro_Click(object sender, EventArgs e)
+        {
+            FrmBaseCadastro fc = new FrmBaseCadastro();
+            fc.Show();
         }
     }
 }

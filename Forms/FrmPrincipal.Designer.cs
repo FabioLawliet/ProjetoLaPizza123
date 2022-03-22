@@ -1,7 +1,7 @@
 ﻿
 namespace LaPizza
 {
-    partial class FmrPrincipal
+    partial class FrmPrincipal
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,7 +29,7 @@ namespace LaPizza
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FmrPrincipal));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPrincipal));
             this.pnlRotinas = new System.Windows.Forms.Panel();
             this.pnlMenu = new System.Windows.Forms.Panel();
             this.pnlMenus = new System.Windows.Forms.Panel();
@@ -557,6 +557,7 @@ namespace LaPizza
             this.btnSMCliCadastro.Text = "Cadastro de Cliente";
             this.btnSMCliCadastro.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSMCliCadastro.UseVisualStyleBackColor = false;
+            this.btnSMCliCadastro.Click += new System.EventHandler(this.btnSMCliCadastro_Click);
             // 
             // btnMenuCliente
             // 
@@ -590,15 +591,15 @@ namespace LaPizza
             this.pnlLogo.Size = new System.Drawing.Size(255, 100);
             this.pnlLogo.TabIndex = 1;
             // 
-            // FmrPrincipal
+            // FrmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1008, 659);
             this.Controls.Add(this.pnlRotinas);
             this.Controls.Add(this.pnlMenu);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Name = "FmrPrincipal";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Name = "FrmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
